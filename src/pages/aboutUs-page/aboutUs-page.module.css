@@ -1,0 +1,19 @@
+.block{
+  width: auto;
+  height: 50vh;
+  padding-left: 1px;
+  right: 0px; 
+  left: 8px;
+  border: 5px solid #ff8000;
+  text-align: left;
+  position: static;
+  margin-top: 5cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  margin-bottom: 1cm;
+  border-radius: 8px;
+
+}
+.h1 {
+color: teal;
+}

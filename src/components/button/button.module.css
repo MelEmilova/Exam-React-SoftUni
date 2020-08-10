@@ -1,0 +1,22 @@
+.button{
+  color: whitesmoke;
+  background-color: #8f4c0a;
+  padding: 10px 20px;
+  margin: 8px 8px;
+  border: 2px solid #e37200;
+  border-radius: 8px;
+  font-size: 0.40cm;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  position: static;
+  width: 60%;
+}
+
+button:hover{
+  background-color: #145232;
+  border: 2px solid ;
+  color: black;
+  font-style: italic;
+  border-radius: 8px;
+}

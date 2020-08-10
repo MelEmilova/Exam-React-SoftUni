@@ -1,0 +1,91 @@
+.input_field {
+  text-align: center;
+  padding: 2px 2px;
+  margin: 8px 0;
+  width: 60%;
+  height: auto;
+  /* border-radius: 8px; */
+  color: #234465;
+  position: static;
+  box-sizing: border-box;
+  font-size: 0.5cm;
+  /* border: solid 5px rgb(216, 144, 238); */
+}
+.container{
+  /* border: solid 5px lightgreen; */
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-top: 0cm;
+  height: 12cm;
+  width: 30cm;
+}
+
+.container_selected{
+margin-left: 18cm;
+margin-bottom: 1cm;
+  position: block;
+  /* border: solid 5px blue; */
+  width: 7.50cm;
+ height: 1%;
+ }
+
+
+.inner_container_left_1{
+  position: absolute;
+  /* border: solid 5px red; */
+  width: 7.50cm;
+  height: auto;
+  margin-bottom: 5cm;
+}
+
+.inner_container_left_3{
+  position: absolute;
+  /* border: solid 5px red; */
+  width: 7.50cm;
+  height: auto;
+  margin-bottom: 5cm;
+  margin-top: 1cm;
+}
+.inner_container_right_2{
+  margin-left: 7.50cm;
+  position: block;
+  /* border: solid 5px blue; */
+  width: 7.50cm;
+}
+
+
+.inner_container_right_4{
+  margin-left: 7.50cm;
+  position: block;
+  /* border: solid 5px blue; */
+  width: 7.50cm;
+  margin-top: 1cm;
+}
+
+button{
+  color: whitesmoke;
+  background-color: #e37200;
+  padding: 10px 20px;
+  margin: 8px 8px;
+  border: 2px solid #e37200;
+  border-radius: 8px;
+  font-size: 0.40cm;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  position: static;
+  width: 70%;
+}
+
+.image{
+  border: solid 5px purple;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.slectedProducts{
+  margin-bottom: 3cm;
+}
+

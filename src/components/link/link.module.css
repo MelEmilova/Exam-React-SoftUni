@@ -1,0 +1,35 @@
+.aTag-Link {
+  color: azure;
+  text-decoration: none;
+  object-position: left;
+  position: relative;
+font-size: 0.5cm;
+}
+
+.linkItem {
+  display: inline-block;
+  height: auto;
+  margin-right: 2%;
+  cursor: pointer;
+  padding: 0.5%;
+  margin: 0.1%;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+ .linkItem:hover {
+  border-top: none;
+  border-style: ridge;
+  border-color: #ff8448;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+

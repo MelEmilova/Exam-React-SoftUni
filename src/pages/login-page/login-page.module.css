@@ -1,0 +1,11 @@
+
+.container{
+  /* border: 10px solid #ce6700; */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1cm;
+  margin-left: 15cm;
+  margin-right: 20cm;
+  margin-top: 3cm;
+ width: 10cm;
+}

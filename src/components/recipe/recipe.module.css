@@ -1,0 +1,76 @@
+.container {
+  width: auto;
+  height: 13cm;
+  border: 10px solid #ce6700;
+  margin-bottom: 5%;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 7%;
+  border-radius: 10px;
+  box-shadow: 1cm;
+}
+
+img{
+  /* border-radius: 8px;
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 60%; */
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ullist{
+  /* margin-left: 20%;
+  margin-right: 11cm; */
+  list-style-position: inside;
+  padding: 5px;
+  font-size: 5mm;
+}
+.description{
+  word-wrap: break-word;
+  padding: 0.5%;
+  font-style: inherit;
+  /* font-size: 6mm; */
+  /* border:1px solid blue; */
+  margin-bottom: 0.5%;
+  margin-left: 0cm;
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  position: static;
+}
+
+.titleRecipe{
+  margin-top: 0.5cm;
+  margin-bottom: 1cm;
+  margin-left: 1cm;
+  color: #145232;
+}
+
+.left_container{
+  position: absolute;
+  left: auto;
+  width: 13cm;
+  height: 15cm; 
+  /* border: 3px solid blue; */
+  margin-left: 1cm;
+  
+}
+
+.right_container{
+ position: block;
+ margin-top: cm;
+ margin-left: 15cm;
+ margin-right: 2cm;
+ left: 150px;
+ width: 15cm;
+ height: 15cm;
+ /* border: 3px solid green; */
+}
+
+h3{
+text-align: center;
+margin-bottom: 4mm;
+}

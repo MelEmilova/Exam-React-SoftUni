@@ -1,0 +1,30 @@
+
+
+.button{
+  color: whitesmoke;
+  background-color: #145232;
+  padding: 10px 20px;
+  margin-left: 7cm;
+  border: 2px solid #145232;
+  border-radius: 8px;
+  font-size: 0.40cm;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  position: static;
+  width: 25%;
+}
+
+button:hover{
+  background-color: #145232;
+  border: 2px solid ;
+  color: whitesmoke;
+  font-style: italic;
+  border-radius: 8px;
+}
+
+
+.container_result{
+  border: 10px solid black;
+  margin-left: 20;
+}

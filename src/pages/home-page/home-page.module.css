@@ -1,0 +1,36 @@
+.container{
+  margin-top: 3cm;
+  margin-bottom: 2cm;
+  position: static;
+}
+
+.block{
+  width: auto;
+  height: 30vh;
+  padding-left: 1px;
+  right: 0px; 
+  left: 8px;
+  background-color: #cc6600;
+  border-top: 2px solid #e37200;
+  border-bottom: 2px solid #e37200;
+  text-align: center;
+  position: static;
+  margin: 5cm;
+  border-radius: 8px;
+
+}
+
+.block_h1{
+  font-style: oblique;
+   text-shadow: 3px 3px #145232;
+   color: whitesmoke;
+   margin-top: 2cm;
+   size: 10cm;
+}
+
+.block_p{
+  color: whitesmoke;
+ margin: 1cm;
+}
+
+ 
