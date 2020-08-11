@@ -1,7 +1,6 @@
 const { Router } = require("express");
 const Recipe = require("../models/Recipe-model");
-const Quantity = require('../models/Quantity-model')
-const isAuth = require('../utilis/auth');
+
 const router = Router();
 
 router.post('/find-recipe', (req, res, next) => {

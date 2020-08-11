@@ -54,7 +54,6 @@ class Product extends Component {
     });
   };
 
-
   handlequantityTypeBlurMeat = () => {
     const { quantityTypeMeat } = this.state;
     if (quantityTypeMeat !== 'kg' && quantityTypeMeat !== 'gr' && quantityTypeMeat !== 'l' && quantityTypeMeat !== 'ml') {
@@ -236,25 +235,23 @@ class Product extends Component {
   openWidget = () => {
     const widget = window.cloudinary.createUploadWidget({
       cloudName: 'dxmla5zuj',
-      uploadPreset: 'Cooking-Project'
+      uploadPreset: 'SiftUni-Forms'
     }, (error, result) => {
       console.log('Error: ', error);
       console.log('Result: ', result);
       if (result.event === 'success') {
-        console.log(result.info.url);
         this.setState({
           imageUrl: result.info.url
         })
 
       }
     })
-
     widget.open()
   };
 
   description = (event) => {
     event.preventDefault();
-    const { title, description, imageUrl } = this.state
+    const { title, description } = this.state
     if (dataRecipe.productQuantities.length === 0) {
       this.setState({
         productQuantityLenght: true
@@ -275,9 +272,6 @@ class Product extends Component {
     }
 
   };
-
-
-
 
   render() {
   const { meat, dairy, vegetables, fruits,

@@ -60,11 +60,6 @@ router.post("/verify", (req, res, next) => {
 });
 
 
-
-
-
-
-
 router.get("/register", (req, res, next) => {
   res.sendStatus(200)
 });
